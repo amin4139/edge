@@ -4,7 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '90cd4a77-141a-43c9-991b-08263cfe9c10';
+let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
 
 let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org'
 
@@ -72,7 +72,7 @@ let DLS = 8;
 let FileName = 'edgetunnel';
 let BotToken ='';
 let ChatID =''; 
-let proxyhosts = [];//本地代理域名池
+let proxyhosts = ['tamin.ir'];//本地代理域名池
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 let RproxyIP = 'false';
 let httpsPorts = ["2053","2083","2087","2096","8443"];
